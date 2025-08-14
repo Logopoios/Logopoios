@@ -1,0 +1,34 @@
+[
+  {
+    "titre": "1. Cadrage et Fondamentaux",
+    "branchesSecondaires": [
+      {
+        "titre": "A. Les Bases",
+        "competences": [
+          {
+            "id": 101,
+            "titre": "Qu'est-ce que la LCA ?",
+            "niveau": "Fondamental",
+            "prerequis": [],
+            "notions": [
+              { "id": "101-1", "titre": "Définir la LCA", "points": 3 },
+              { "id": "101-2", "titre": "Différencier validité interne/externe", "points": 4 },
+              { "id": "101-3", "titre": "Expliquer l'intérêt de la LCA pour la pratique médicale", "points": 3 }
+            ]
+          },
+          {
+            "id": 102,
+            "titre": "Le plan IMRAD",
+            "niveau": "Fondamental",
+            "prerequis": [101],
+            "notions": [
+              { "id": "102-1", "titre": "Définir IMRAD", "points": 3 },
+              { "id": "102-2", "titre": "Identifier le contenu de chaque section", "points": 4 },
+              { "id": "102-3", "titre": "Savoir où chercher une information précise dans un article", "points": 3 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
